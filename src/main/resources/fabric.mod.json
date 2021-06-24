@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "poophaters_mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Poophater1's epic mod!",
+  "description": "this is verty epic mod, for miencraft made in 100% miencraft code! pls download mod pls pls pls",
   "authors": [
-    "Me!"
+    "poophater1"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Academic License",
+  "icon": "assets/poophaters_mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.poophater.mod.PoophatersMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "poophaters_mod.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
