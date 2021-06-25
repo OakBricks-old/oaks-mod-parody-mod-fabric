@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "poophaters_mod:item/redding_piece"
+  }
+}
